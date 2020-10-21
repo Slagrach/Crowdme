@@ -227,7 +227,7 @@ body {
 /*- -------------------- <SLIDER-start> -------------------- -*/
 
 .slider {
-  background: url("../../img/Overlay.png") center no-repeat;
+  background: url("../img/Overlay.png") center no-repeat;
   background-size: cover;
   height: 570px;
   display: -webkit-box;
@@ -298,7 +298,6 @@ body {
   -webkit-transition: -webkit-box-shadow .2s linear;
   transition: -webkit-box-shadow .2s linear;
   -o-transition: box-shadow .2s linear;
-  transition: box-shadow .2s linear;
   transition: box-shadow .2s linear, -webkit-box-shadow .2s linear;
 }
 
@@ -681,7 +680,7 @@ li button {
   background-color: #ffffff;
   color: rgba(81, 81, 81, 0.71);
   width: 183px;
-  margin: -23px 35px 0px 0;
+  margin: -23px 35px 0 0;
   height: 52px;
   -webkit-transition: background-color .4s linear, color .4s linear, opacity .4s linear;
   -o-transition: background-color .4s linear, color .4s linear, opacity .4s linear;
@@ -788,7 +787,7 @@ li button {
 }
 
 .project-item__link:after {
-  content: url("../../img/arrow.png");
+  content: url("../img/arrow.png");
   position: relative;
   bottom: -4px;
   left: 9px;
@@ -828,10 +827,10 @@ li button {
 /*- -------------------- <COMMUNITY-start> -------------------- -*/
 
 .community {
-  background: url("../../img/bg.png") center no-repeat;
+  background: url("../img/bg.png") center no-repeat;
   background-size: cover;
   padding: 125px 0 0 0;
-  margin: -60px 0 0px 0;
+  margin: -60px 0 0 0;
 }
 
 .community-title {
@@ -905,7 +904,7 @@ li button {
 }
 
 .community-item:after {
-  content: url("../../img/Com.png");
+  content: url("../img/Com.png");
   position: absolute;
   top: -19px;
   left: -24px;
@@ -969,7 +968,6 @@ hr {
 
 .slick-list.dragging {
   cursor: pointer;
-  cursor: hand;
 }
 
 .slick-slider .slick-track,
@@ -1566,7 +1564,7 @@ hr {
   }
 
   .community-item:after {
-    content: url(../../img/Com-mob.png);
+    content: url(../img/Com-mob.png);
     top: -33px;
     left: 3px;
   }
@@ -1588,8 +1586,8 @@ hr {
   }
 }
 @supports (-webkit-appearance:none){
-.slider{background:url("../../img/Overlay.webp") center no-repeat}
-.community{background:url("../../img/bg.webp") center no-repeat}
+.slider{background:url("../img/Overlay.webp") center no-repeat}
+.community{background:url("../img/bg.webp") center no-repeat}
 }
 
  @media (max-width: 1072px){
