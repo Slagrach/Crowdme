@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /** ************************* <FONTS> ************************* **/
 
 @font-face {
@@ -225,9 +227,23 @@ body {
 /*- -------------------- <SLIDER-start> -------------------- -*/
 
 .slider {
-  background: url("../img/Overlay.png") center no-repeat;
+  background: url("../../img/Overlay.png") center no-repeat;
   background-size: cover;
   height: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
 .slider-item {
@@ -256,7 +272,7 @@ body {
 }
 
 .slider-body__title {
-  font-size: 49px;
+  font-size: 49.2px;
   font-weight: 600;
   line-height: 1.57;
   letter-spacing: 1.1px;
@@ -266,12 +282,12 @@ body {
 }
 
 .slider-body__title span {
-  font-size: 35px;
+  font-size: 35.2px;
   font-weight: normal;
 }
 
 .slider-body__btn {
-  font-size: 19px;
+  font-size: 19.2px;
   font-weight: 600;
   line-height: 4.0;
   color: #ffffff;
@@ -302,7 +318,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .slider-arrows__left {
@@ -344,7 +362,7 @@ body {
 
 .works-title {
   width: 505px;
-  font-size: 31px;
+  font-size: 31.2px;
   font-weight: 600;
   line-height: 1.6;
   text-align: center;
@@ -355,7 +373,7 @@ body {
 
 .works-text {
   width: 920px;
-  font-size: 19px;
+  font-size: 19.2px;
   text-align: center;
   color: rgba(81, 81, 81, 0.71);
 }
@@ -500,7 +518,7 @@ li button {
 
 .slider2-slid__item-text {
   width: 650px;
-  font-size: 17px;
+  font-size: 17.2px;
   line-height: 1.7;
   color: rgba(96, 96, 96, 0.67);
 }
@@ -543,7 +561,7 @@ li button {
 }
 
 .find-item__items-title {
-  font-size: 23px;
+  font-size: 23.2px;
   margin: 0 0 23px 0;
   letter-spacing: 1px;
   color: #515151;
@@ -552,7 +570,7 @@ li button {
 .find-item__items-text {
   width: 256px;
   line-height: 1.7;
-  font-size: 17px;
+  font-size: 17.2px;
   color: #515151;
   margin: 0 0 23px 0;
 }
@@ -621,7 +639,7 @@ li button {
 }
 
 .project-title {
-  font-size: 29px;
+  font-size: 29.2px;
   font-weight: 600;
   letter-spacing: .5px;
   color: #515151;
@@ -641,7 +659,7 @@ li button {
 .project-top__text {
   width: 672px;
   line-height: 1.6;
-  font-size: 17px;
+  font-size: 17.2px;
   color: #8f8f8f;
 }
 
@@ -701,7 +719,7 @@ li button {
 }
 
 .project-item__title {
-  font-size: 17px;
+  font-size: 17.2px;
   font-weight: bold;
   letter-spacing: .6px;
   color: #484848;
@@ -709,7 +727,7 @@ li button {
 }
 
 .project-item__text {
-  font-size: 13px;
+  font-size: 13.2px;
   opacity: 0.79;
   color: rgba(72, 72, 72, 0.71);
   margin: 0 0 38px 27px;
@@ -744,7 +762,7 @@ li button {
 }
 
 .project-item__items-fun {
-  font-size: 13px;
+  font-size: 13.2px;
   font-weight: 600;
   text-align: center;
   color: #8d8d8d;
@@ -752,7 +770,7 @@ li button {
 }
 
 .project-item__items-days {
-  font-size: 13px;
+  font-size: 13.2px;
   font-weight: 600;
   text-align: center;
   color: #8d8d8d;
@@ -761,7 +779,7 @@ li button {
 
 .project-item__link {
   opacity: 0.85;
-  font-size: 15px;
+  font-size: 15.2px;
   font-weight: 600;
   text-align: center;
   letter-spacing: .4px;
@@ -770,7 +788,7 @@ li button {
 }
 
 .project-item__link:after {
-  content: url("../img/arrow.png");
+  content: url("../../img/arrow.png");
   position: relative;
   bottom: -4px;
   left: 9px;
@@ -810,10 +828,10 @@ li button {
 /*- -------------------- <COMMUNITY-start> -------------------- -*/
 
 .community {
-  background: url("../img/bg.png") center no-repeat;
+  background: url("../../img/bg.png") center no-repeat;
   background-size: cover;
   padding: 125px 0 0 0;
-  margin: -60px 0 0 0;
+  margin: -60px 0 0px 0;
 }
 
 .community-title {
@@ -887,7 +905,7 @@ li button {
 }
 
 .community-item:after {
-  content: url("../img/Com.png");
+  content: url("../../img/Com.png");
   position: absolute;
   top: -19px;
   left: -24px;
@@ -1548,7 +1566,7 @@ hr {
   }
 
   .community-item:after {
-    content: url(../img/Com-mob.png);
+    content: url(../../img/Com-mob.png);
     top: -33px;
     left: 3px;
   }
@@ -1570,8 +1588,8 @@ hr {
   }
 }
 @supports (-webkit-appearance:none){
-.slider{background:url("../img/Overlay.webp") center no-repeat}
-.community{background:url("../img/bg.webp") center no-repeat}
+.slider{background:url("../../img/Overlay.webp") center no-repeat}
+.community{background:url("../../img/bg.webp") center no-repeat}
 }
 
  @media (max-width: 1072px){

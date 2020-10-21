@@ -5,12 +5,6 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 });
-
-// $(document).ready(function () {
-//     $('.slider2-top').click(function (event) {
-//         $('.slider2-item__num').toggleClass('active');
-//     });
-// });
 /** ************************* <SLIDER> ************************* **/
 $(document).ready(function () {
     $('.slider-items').slick({
