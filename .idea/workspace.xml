@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99ce6ef3-25de-43c5-af45-d930fdf116e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,7 +56,11 @@
       <updated>1601281781166</updated>
       <workItem from="1601281786043" duration="35000" />
       <workItem from="1603288929145" duration="344000" />
-      <workItem from="1603292232757" duration="160000" />
+      <workItem from="1603292232757" duration="1084000" />
+      <workItem from="1603312718649" duration="738000" />
+      <workItem from="1604480584118" duration="17000" />
+      <workItem from="1605086488642" duration="70000" />
+      <workItem from="1611260037807" duration="17000" />
     </task>
     <servers />
   </component>
