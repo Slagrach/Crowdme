@@ -5,21 +5,10 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 });
-
-// $(document).ready(function () {
-//     $('.slider2-top').click(function (event) {
-//         $('.slider2-item__num').toggleClass('active');
-//     });
-// });
 /** ************************* <SLIDER> ************************* **/
-$(document).ready(function () {
     $('.slider-items').slick({
-        slidesToShow: 1,
-        infinite: false,
         arrows: false,
-        customPaging: function () {
-            return ''
-        }
+        slidesToShow: 1
     });
 
     $(".slider-arrows__left").on("click", function (event) {
@@ -33,7 +22,6 @@ $(document).ready(function () {
 
         $('.slider-items').slick("slickNext");
     });
-});
 /** ************************* <SLIDER2> ************************* **/
 $(function () {
     let addListener = function (slider) {
